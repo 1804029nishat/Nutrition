@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.nutrition">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Nutrition">
+        <activity
+            android:name=".MyProfileGenderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MyGoalsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FoodGoalNewGActivityLevelActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FoodGoalNewFTargetWeight"
+            android:exported="false" />
+        <activity
+            android:name=".FoodDiaryGoalNewECurrentWeightActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FoodDiaryGoalNewCDobActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FoodDiaryGoalNewBGenderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".FoodDiaryGoalNewAHeightActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:launchMode="singleTop" />
+        <activity
+            android:name=".RegisterActivity"
+            android:launchMode="singleTop" />
+        <activity android:name=".WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".activities.ProfileActivity"
+            android:windowSoftInputMode="stateHidden" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Nutrition</string>
+    <string name="nutrition_for_health_care">Nutrition for Health Care</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="log_in">Log In</string>
+    <string name="exercise">Exercise</string>
+    <string name="to_be_fit_not_skinny">TO BE FIT,NOT SKINNY</string>
+    <string name="eat">Eat</string>
+    <string name="to_nourish">To Nourish</string>
+    <string name="stay">Stay</string>
+    <string name="strong">strong</string>
+    <string name="your_body">Your Body</string>
+    <string name="you_are_worth_more_than_you_realise">You Are Worth More Than You Realise</string>
+    <string name="let_s_start"><![CDATA[Let\'s Start->]]></string>
+    <string name="email">email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+
+</resources>
